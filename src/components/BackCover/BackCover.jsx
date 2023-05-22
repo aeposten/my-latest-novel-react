@@ -1,7 +1,7 @@
 import "./BackCover.css";
 function BackCover(props) {
-  const { summary } = props;
-  return <section>{summary}</section>;
+  const { blurb } = props;
+  return <section>{blurb}</section>;
 }
 
 export default BackCover;

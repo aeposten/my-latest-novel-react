@@ -8,7 +8,7 @@ function Header(props) {
         title, cover art, and plot summary
       </span>
       <input id="idea" type="text" value={idea} onChange={handleChange} />
-      <button className="btn" id="print-btn" onClick={handleClick}>
+      <button className="btn" id="print-btn" onClick={() => handleClick(idea)}>
         Print My Novel
       </button>
     </header>
