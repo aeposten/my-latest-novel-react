@@ -1,6 +1,7 @@
 import "./BackCover.css";
-function BackCover() {
-  return <section>Back Cover!</section>;
+function BackCover(props) {
+  const { summary } = props;
+  return <section>{summary}</section>;
 }
 
 export default BackCover;
